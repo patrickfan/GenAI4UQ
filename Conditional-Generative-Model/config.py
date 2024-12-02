@@ -42,10 +42,8 @@ class Config:
     USE_SYNTHETIC_DATA = True  # Set False to use custom dataset
 
     # [REQUIRED] Data paths (required if USE_SYNTHETIC_DATA = False) Put your data into the Dataset directory
-    X_SAMPLE_PATH = 'Dataset/Co2_Pressure/pre_latent.npy'          # Predicted Variables (X)
-    Y_SAMPLE_PATH = 'Dataset/Co2_Pressure/pre_observation.npy'     # Input  e.g. observations (Y)
-    # X_SAMPLE_PATH = 'Dataset/ELM/InputPara.npy'   # Model parameters (X)
-    # Y_SAMPLE_PATH = 'Dataset/ELM/Observations.npy'     # Observations (Y)
+    X_SAMPLE_PATH = 'Dataset/ELM/InputPara.npy'   # Model parameters (X)
+    Y_SAMPLE_PATH = 'Dataset/ELM/Observations.npy'     # Observations (Y)
 
 
 
