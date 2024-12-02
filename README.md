@@ -1,6 +1,6 @@
 # Conditional Generative Model for Inverse Modeling and Uncertainty Quantification
 
-This repository implements a general-purpose conditional generative model, capable of calibrating models, quantifying uncertainty, and making forecasts efficiently. Below are three illustrative examples showcasing its capabilities:
+This repository implements a general-purpose conditional generative model, capable of calibrating models, quantifying uncertainty, and making forecasts efficiently. Below are three illustrative examples demonstrating its capabilities:
 
 
 ![Conditional Generative Model](ConditionalGenenativeModel.png)
