@@ -68,4 +68,6 @@ Refer to folder:  Example3_GeologicalCarbonStorage
 7. Transform the latent dimensions back to the original space:  python Pres_pred.py
 8. The prediction and reconstuction results will be saved in the Results directory.
 
-
+# Reference:
+1. Fan, M., Liu, Y., Lu, D., Wang, H. and Zhang, G., 2024. A novel conditional generative model for efficient ensemble forecasts of state variables in large-scale geological carbon storage. Journal of Hydrology, p.132323.
+2. Lu, D., Liu, Y., Zhang, Z., Bao, F. and Zhang, G., 2024. A diffusion‐based uncertainty quantification method to advance E3SM land model calibration. Journal of Geophysical Research: Machine Learning and Computation, 1(3), p.e2024JH000234.
