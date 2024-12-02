@@ -1,10 +1,10 @@
-# Conditional Generative Model for Inverse Modeling and Uncertainty Quantification
 
-This repository implements a general-purpose conditional generative model, capable of calibrating models, quantifying uncertainty, and making forecasts efficiently. 
 
 ![Conditional Generative Model](ConditionalGenenativeModel.png)
 
 # Why GenAI4UQ?
+
+A general-purpose conditional generative model, capable of calibrating models, quantifying uncertainty, and making forecasts efficiently.
 
 ## Key Capabilities:
 
