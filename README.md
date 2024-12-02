@@ -21,15 +21,19 @@ This repository implements a general-purpose conditional generative model, capab
 We calibrate input parameter x given y:  `y = x² + θ`, where `θ` represents random perturbations, and quantify the associated uncertainty of input paramter x.
 
 ### Instructions
-1. Run the main script:
+1. In the config.py, modify the following: 
+   
+   USE_SYNTHETIC_DATA = True
+   
+2. Run the main script:
    python main.py
-2. The results, including parameter posterior samples and predictive uncertainty, will be saved in the Results directory.
+3. The results, including parameter posterior samples and predictive uncertainty, will be saved in the Results directory.
 
 ## Example 2: Calibrating the ELM Model at the Missouri Ozark AmeriFlux Site
 We calibrate the Ecosystem Land Model (ELM) using observational data from the Missouri Ozark AmeriFlux site. The objective is to quantify the uncertainty for eight sensitive parameters, given five observation variables.
 
 ### Instructions
-1. Change to
+1. In the config.py, modify the following: 
    
    USE_SYNTHETIC_DATA = False
    
@@ -49,10 +53,17 @@ We forecast the full 2D pressure distribution (64x128 grid) for a geological sto
    Refer to the original article: https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S0309170822000562#d1e8497
 2. Run dimension reduction: python AE_V2.py
    This reduces the forecast variables from the original 64x128 grid to a latent dimension of 20.
-3. Run the main script for forecasting: python main.py
-4. Evaluate testing cases: python Evaluation_co2.py
-5. Transform the latent dimensions back to the original space:  python Pres_pred.py
-6. The prediction and reconstuction results will be saved in the Results directory.
+3. In the config.py, modify the following: 
+   
+   USE_SYNTHETIC_DATA = False
+   
+   X_SAMPLE_PATH = 'Dataset/Co2_Pressure/pre_latent.npy'   # Model parameters (X)
+   
+   Y_SAMPLE_PATH = 'Dataset/Co2_Pressure/pre_observation.npy'     # Observations (Y)
+   
+5. Run the main script for forecasting: python main.py
+6. Evaluate testing cases: python Evaluation_co2.py
+7. Transform the latent dimensions back to the original space:  python Pres_pred.py
+8. The prediction and reconstuction results will be saved in the Results directory.
 
-bash
-Copy code
+
