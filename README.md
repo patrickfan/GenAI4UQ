@@ -1,7 +1,6 @@
 # Conditional Generative Model for Inverse Modeling and Uncertainty Quantification
 
-This repository implements a general-purpose conditional generative model, capable of calibrating models, quantifying uncertainty, and making forecasts efficiently. Below are three illustrative examples demonstrating its capabilities:
-
+This repository implements a general-purpose conditional generative model, capable of calibrating models, quantifying uncertainty, and making forecasts efficiently. 
 
 ![Conditional Generative Model](ConditionalGenenativeModel.png)
 
@@ -21,7 +20,7 @@ This repository implements a general-purpose conditional generative model, capab
 
 Hyperparameter tuning built-in; just provide your data!
 
-## Comprehensive
+## Comprehensive: 
 
 Ready-to-use examples for diverse scientific problems.
 
@@ -38,7 +37,7 @@ installing HyperOptSearch from Ray Tune: pip install -U hyperopt   https://docs.
 
 
 
-# Three Examples:
+# Below are three illustrative examples demonstrating its capabilities:
 
 ## Example 1: Bimodal Function Calibration
 We calibrate input parameter x given y:  `y = x² + θ`, where `θ` represents random perturbations, and quantify the associated uncertainty of input paramter x.
