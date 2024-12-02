@@ -9,7 +9,7 @@ This repository implements a general-purpose conditional generative model, capab
 
 <ol>
   <li>Replaces traditional inverse modeling methods (MCMC + surrogate models)</li>
-  <li>Predicts model input parameters directly from observations after trainingm</li>
+  <li>Predicts model input parameters directly from observations after training</li>
   <li>Generates model output predictions efficiently based on new observations</li>
   <li>Delivers ensemble forecasts with comprehensive uncertainty quantification</li>
   <li>High computational efficiency and storage efficiency</li>
