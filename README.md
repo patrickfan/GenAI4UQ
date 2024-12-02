@@ -1,10 +1,10 @@
 
-
-![Conditional Generative Model](ConditionalGenenativeModel.png)
-
 # Why GenAI4UQ?
 
 A general-purpose conditional generative model, capable of calibrating models, quantifying uncertainty, and making forecasts efficiently.
+
+![Conditional Generative Model](ConditionalGenenativeModel.png)
+
 
 ## Key Capabilities:
 
