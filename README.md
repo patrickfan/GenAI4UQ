@@ -52,7 +52,7 @@ We calibrate input parameter x given y:  `y = x² + θ`, where `θ` represents r
 2. Run the main script:
    python main.py
 3. The results, including parameter posterior samples and predictive uncertainty, will be saved in the Results directory.
-4. For additional evalutaion, run python Evaluation.py such as modifyiing the nubmer of generated ensembles
+4. For additional evalutaion, run python Evaluation.py such as modifyiing the nubmer of generated ensembles (Npath = 2000)
 
 ## Example 2: Calibrating the ELM Model at the Missouri Ozark AmeriFlux Site
 We calibrate the Ecosystem Land Model (ELM) using observational data from the Missouri Ozark AmeriFlux site. The objective is to quantify the uncertainty for eight sensitive parameters, given five observation variables.
@@ -66,8 +66,8 @@ We calibrate the Ecosystem Land Model (ELM) using observational data from the Mi
    
    Y_SAMPLE_PATH = 'Dataset/ELM/Observations.npy'     # Observations (Y)
    
-3. python main.py
-4. The results, including parameter posterior samples and predictive uncertainty, will be saved in the Results directory.
+2. python main.py
+3. The results, including parameter posterior samples and predictive uncertainty, will be saved in the Results directory.
 
 ## Example 3: High-Dimensional Input Parameters – Geological Carbon Storage Case
 We forecast the full 2D pressure distribution (64x128 grid) for a geological storage application. Observations are from 10 monitoring points at the injection well. 
