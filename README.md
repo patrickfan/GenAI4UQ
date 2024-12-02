@@ -45,7 +45,7 @@ We forecast the full 2D pressure distribution (64x128 grid) for a geological sto
    Refer to the original article: https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S0309170822000562#d1e8497
 2. Run dimension reduction: python AE_V2.py
    This reduces the forecast variables from the original 64x128 grid to a latent dimension of 20.
-3. Run the main script for forecasting: python Evaluation_co2.py
+3. Run the main script for forecasting: python main.py
 4. Evaluate testing cases: python Evaluation_co2.py
 5. Transform the latent dimensions back to the original space:  python Pres_pred.py
 6. The prediction and reconstuction results will be saved in the Results directory.
