@@ -52,6 +52,7 @@ We calibrate input parameter x given y:  `y = x² + θ`, where `θ` represents r
 2. Run the main script:
    python main.py
 3. The results, including parameter posterior samples and predictive uncertainty, will be saved in the Results directory.
+4. For additional evalutaion, run python Evaluation.py such as modifyiing the nubmer of generated ensembles
 
 ## Example 2: Calibrating the ELM Model at the Missouri Ozark AmeriFlux Site
 We calibrate the Ecosystem Land Model (ELM) using observational data from the Missouri Ozark AmeriFlux site. The objective is to quantify the uncertainty for eight sensitive parameters, given five observation variables.
