@@ -81,8 +81,8 @@ Refer to folder:  Example3_GeologicalCarbonStorage
 8. The prediction and reconstuction results will be saved in the Results directory.
 
 # Reference:
-1. Fan, M., Liu, Y., Lu, D., Wang, H. and Zhang, G., 2024. A novel conditional generative model for efficient ensemble forecasts of state variables in large-scale geological carbon storage. Journal of Hydrology, p.132323. (DOI: https://doi.org/10.1016/j.jhydrol.2024.132323)
-2. Lu, D., Liu, Y., Zhang, Z., Bao, F. and Zhang, G., 2024. A diffusion‐based uncertainty quantification method to advance E3SM land model calibration. Journal of Geophysical Research: Machine Learning and Computation, 1(3), p.e2024JH000234. (DOI: https://doi.org/10.1029/2024JH000234)
+1. Fan, M., Liu, Y., Lu, D., Wang, H. and Zhang, G., 2024. A novel conditional generative model for efficient ensemble forecasts of state variables in large-scale geological carbon storage. Journal of Hydrology, p.132323. (https://doi.org/10.1016/j.jhydrol.2024.132323)
+2. Lu, D., Liu, Y., Zhang, Z., Bao, F. and Zhang, G., 2024. A diffusion‐based uncertainty quantification method to advance E3SM land model calibration. Journal of Geophysical Research: Machine Learning and Computation, 1(3), p.e2024JH000234. (https://doi.org/10.1029/2024JH000234)
 3. Y. Liu, M. Yang, Z. Zhang, F. Bao, Y. Cao, G. Zhang, Diffusion-model-assisted supervised learning of generative models for density estimation, Journal of Machine Learning for Modeling and Computing, 5(1), pp. 25-38, 2024. (DOI:10.1615/JMachLearnModelComput.2024051346)
-4. F. Bao, Z. Zhang, G. Zhang, An ensemble score filter for tracking high-dimensional nonlinear dynamical system, Computer Methods in Applied Mechanics and Engineering, 432, Part B, 117447, 2024. (DOI:10.1016/j.cma.2024.117447)
-5. F. Bao, Z. Zhang, G. Zhang, A score-based filter for nonlinear data assimilation, Journal of Computational Physics, 514, 113207, 2024. (DOI:10.1016/j.jcp.2024.113207)
+4. Bao, F., Zhang, Z. and Zhang, G, An ensemble score filter for tracking high-dimensional nonlinear dynamical system, Computer Methods in Applied Mechanics and Engineering, 432, Part B, 117447, 2024. (https://doi.org/10.1016/j.cma.2024.117447)
+5. Bao, F., Zhang, Z. and Zhang, G., 2024. A score-based filter for nonlinear data assimilation. Journal of Computational Physics, 514, 113207, 2024. (https://doi.org/10.1016/j.jcp.2024.113207)
