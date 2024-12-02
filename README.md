@@ -5,7 +5,9 @@ This repository implements a general-purpose conditional generative model, capab
 
 ![Conditional Generative Model](ConditionalGenenativeModel.png)
 
-# Key Capabilities:
+# Why GenAI4UQ?
+
+## Key Capabilities:
 
 <ol>
   <li>Replaces traditional inverse modeling methods (MCMC + surrogate models)</li>
@@ -14,6 +16,15 @@ This repository implements a general-purpose conditional generative model, capab
   <li>Delivers ensemble forecasts with comprehensive uncertainty quantification</li>
   <li>High computational efficiency and storage efficiency</li>
 </ol>
+
+## Efficient: 
+
+Hyperparameter tuning built-in; just provide your data!
+
+## Comprehensive
+
+Ready-to-use examples for diverse scientific problems.
+
 
 # Installing GenAI4UQ
 
