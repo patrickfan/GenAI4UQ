@@ -18,7 +18,9 @@ This repository implements a general-purpose conditional generative model, capab
 
 ## Efficient: 
 
-Hyperparameter tuning built-in; just provide your data!
+Hyperparameter tuning built-in
+
+Just provide your data!
 
 ## Comprehensive: 
 
