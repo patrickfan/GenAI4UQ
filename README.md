@@ -15,6 +15,16 @@ This repository implements a general-purpose conditional generative model, capab
   <li>High computational efficiency and storage efficiency</li>
 </ol>
 
+# Installing GenAI4UQ
+
+torch version: 1.11.0
+sklearn version: 1.2.2
+
+Specifically, installing Ray Tune: Hyperparameter Tuning:  https://docs.ray.io/en/latest/ray-overview/installation.html
+installing HyperOptSearch from Ray Tune: pip install -U hyperopt   https://docs.ray.io/en/latest/tune/api/doc/ray.tune.search.hyperopt.HyperOptSearch.html
+
+
+
 # Three Examples:
 
 ## Example 1: Bimodal Function Calibration
