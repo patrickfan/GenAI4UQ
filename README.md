@@ -42,7 +42,7 @@ installing HyperOptSearch from Ray Tune: pip install -U hyperopt   https://docs.
 # Below are three illustrative examples demonstrating its capabilities:
 
 ## Example 1: Bimodal Function Calibration
-We calibrate input parameter x given y:  `y = x² + θ`, where `θ` represents random perturbations, and quantify the associated uncertainty of input paramter x.
+We calibrate input parameter x given y:  `y = x² + θ`, where `θ` represents random perturbations, and quantify the associated uncertainty of input parameter x.
 
 ### Instructions
 1. In the config.py, modify the following: 
