@@ -70,7 +70,7 @@ We calibrate the Ecosystem Land Model (ELM) using observational data from the Mi
 3. The results, including parameter posterior samples and predictive uncertainty, will be saved in the Results directory.
 4. For additional evalutaion analysis, run python Evaluation.py such as modifying the nubmer of generated ensembles (Npath = 2000)
 
-## Example 3: High-Dimensional Input Parameters – Geological Carbon Storage Case
+## Example 3: High-Dimensional Target Parameters – Geological Carbon Storage Case
 We forecast the full 2D pressure distribution (64x128 grid) for a geological storage application. Observations are from 10 monitoring points at the injection well. 
 
 Refer to folder:  Example3_GeologicalCarbonStorage
