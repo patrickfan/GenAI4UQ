@@ -78,7 +78,7 @@ Refer to folder:  Example3_GeologicalCarbonStorage
 ### Instructions
 1. Download the dataset:
    Dataset: dP_train_u.pt [Download here](https://drive.google.com/drive/folders/1fZQfMn_vsjKUXAfRV0q_gswtl8JEkVGo)
-   Refer to the original article: https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S0309170822000562#d1e8497
+   Refer to the original article: [https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S0309170822000562#d1e8497](https://doi.org/10.1016/j.advwatres.2022.104180)
 2. Run dimension reduction: python AE_V2.py
    This reduces the forecast variables from the original 64x128 grid to a latent dimension of 20.
 3. In the config.py, modify the following: 
