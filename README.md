@@ -29,7 +29,7 @@ Ready-to-use examples for diverse scientific problems.
 
 # Installing GenAI4UQ
 
-torch version: 1.11.0
+torch version: > 1.11.0
 
 sklearn version: 1.2.2
 
