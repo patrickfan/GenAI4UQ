@@ -41,6 +41,10 @@ installing HyperOptSearch from Ray Tune: pip install -U hyperopt   https://docs.
 
 # Below are three illustrative examples demonstrating its capabilities:
 
+The details are in our paper: GenAI4UQ: A Software for Inverse Uncertainty Quantification Using Conditional Generative Models
+https://arxiv.org/abs/2412.07026
+
+
 ## Example 1: Bimodal Function Calibration
 We calibrate input parameter x given y:  `y = x² + θ`, where `θ` represents random perturbations, and quantify the associated uncertainty of input parameter x.
 
