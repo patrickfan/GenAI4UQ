@@ -99,7 +99,7 @@ Refer to folder:  Example3_GeologicalCarbonStorage
 8. The prediction and reconstuction results will be saved in the Results directory.
 
 # Reference:
-1. Fan, M., Zhang, Z., Lu, D., and Zhang, G., 2024. GenAI4UQ: A Software for Inverse Uncertainty Quantification Using Conditional Generative Models (https://arxiv.org/abs/2412.07026) 
+1. Fan, M., Zhang, Z., Lu, D., and Zhang, G., 2024. GenAI4UQ: A Software for Inverse Uncertainty Quantification Using Conditional Generative Models.  (https://arxiv.org/abs/2412.07026) 
 1. Fan, M., Liu, Y., Lu, D., Wang, H. and Zhang, G., 2024. A novel conditional generative model for efficient ensemble forecasts of state variables in large-scale geological carbon storage. Journal of Hydrology, p.132323. (https://doi.org/10.1016/j.jhydrol.2024.132323)
 2. Lu, D., Liu, Y., Zhang, Z., Bao, F. and Zhang, G., 2024. A diffusion‐based uncertainty quantification method to advance E3SM land model calibration. Journal of Geophysical Research: Machine Learning and Computation, 1(3), p.e2024JH000234. (https://doi.org/10.1029/2024JH000234)
 3. Liu, Y., Yang, M., Zhang, Z., Bao, F., Cao, Y. and Zhang, G., 2024. Diffusion-model-assisted supervised learning of generative models for density estimation, Journal of Machine Learning for Modeling and Computing, 5(1), pp. 25-38 (https://www.dl.begellhouse.com/journals/558048804a15188a,34cd19111b07668e,297525503398a70f.html)
