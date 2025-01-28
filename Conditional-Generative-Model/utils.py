@@ -50,7 +50,9 @@ class ODEUtils:
             dt = t_vec[j] - t_vec[j + 1]
             log_weight_gauss = torch.sum(-0.5 * ((zt[:, None, :] - self.cond_alpha(t,dt) * x_sample[None, :, :]) ** 2) / self.cond_beta2(t,dt), dim=2)
             score_gauss = -1.0 * (zt[:, None, :] - self.cond_alpha(t,dt) * x_sample[None, :, :]) / self.cond_beta2(t,dt)
-            weight_temp = torch.exp(log_weight_gauss + log_weight_likelihood)
+            weight_temp_log = log_weight_gauss + log_weight_likelihood
+            weight_temp_log = weight_temp_log - torch.amax(weight_temp_log, dim=1, keepdim=True)
+            weight_temp = torch.exp(weight_temp_log)
             weight = weight_temp / torch.sum(weight_temp, dim=1, keepdims=True)
             score = torch.sum(score_gauss * weight[:, :, None], dim=1)
             zt = zt - (self.b(t,dt) * zt - 0.5 * self.sigma_sq(t,dt) * score) * dt
