@@ -20,9 +20,12 @@ class DataGenerator:
             y_path = os.path.join(current_dir, self.config.Y_SAMPLE_PATH)
             x_sample = np.load(x_path)
             y_sample = np.load(y_path)
-            
-        X_train_val, X_test, y_train_val, y_test = train_test_split(x_sample, y_sample, test_size=0.1, random_state=42)
 
+        split_index = int(0.9 * len(x_sample))
+
+        X_train_val, X_test = x_sample[:split_index], x_sample[split_index:]
+        y_train_val, y_test = y_sample[:split_index], y_sample[split_index:]
+        
         return X_train_val.astype(np.float32), y_train_val.astype(np.float32), X_test.astype(np.float32), y_test.astype(np.float32)
 
     def generate_data(self):
