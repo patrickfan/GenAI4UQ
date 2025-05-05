@@ -1,13 +1,11 @@
+# Python version requirement (informational, not enforced by pip)
+# Requires Python >= 3.10
 
-Python version > 3.10
+torch>=1.11.0
+scikit-learn==1.2.2
+ray[tune]>=2.0.0
+hyperopt>=0.2.7
 
-torch version: > 1.11.0
-
-sklearn version: 1.2.2
-
-Specifically, installing Ray Tune: Hyperparameter Tuning: https://docs.ray.io/en/latest/ray-overview/installation.html
-
-installing HyperOptSearch from Ray Tune: pip install -U hyperopt https://docs.ray.io/en/latest/tune/api/doc/ray.tune.search.hyperopt.HyperOptSearch.html
 
 
 
